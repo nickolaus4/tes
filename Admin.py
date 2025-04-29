@@ -70,6 +70,7 @@ class Admin:
                 else:
                     self.users[user].remove(book_name)
                 user_found = True
+		print('lalala')
         if not user_found:
             return print('There is no user with this name')
         return print(F'The user {user_name} returned {found_book}')
